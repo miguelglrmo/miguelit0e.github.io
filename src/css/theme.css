@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap");
+
+
+body{
+  font-family:Montserrat;
+}
+
+p {
+  font-size: 16px;
+}
+
+h4 {
+  padding-bottom: 2%;
+}
+
+.navbar-fixed {
+   z-index: 999; 
+}
+
+.row {
+  margin: 0;
+}
+
+.brand-logo {
+  padding-left: 20px !important;
+}
+
+.header {
+  color: white;
+}
+
+.main {
+  padding: 5% 0px 1% 0px;
+  margin:  0px 5% 0px 10%;
+}
+
+/* Info */
+.info {
+  background-color:#262625;
+  color:white;
+}
+
+.info img {
+  max-width: 25%;;
+}
+
+.about {
+  background-color:#262625;
+  color:white;
+}
+
+.about img {
+  max-width: 60%;
+  margin-bottom:20%;
+}
+
+/* Staff */
+.staff {
+  background-color:#262625;
+  color:black;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+
+.staff i {
+  font-size: 25px;
+  margin: 0px .5% 0px .5%;
+  color:#212121;
+}
+
+.staff i:hover {
+  color: rgb(70, 70, 70);
+}
+
+.vip {
+  background-color:#262625;
+}
+
+.screenshots {
+  background-color:#262625;
+  color:white;
+}
+
+/* Responsiveness */
+@media screen and (max-width: 992px) {
+  .main {
+    padding: 10% 0 10% 0;
+  }
+
+  .about, .page-footer {
+    text-align: center;
+  }
+
+  .about img {
+    padding-bottom: 8%;
+  }
+
+  .screenshots .row .col {
+    padding: 2px 2px 2px 2px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .contact .card-panel {
+    margin: 3% 25% 3% 25%;
+  }
+
+  .screenshots .row:last-child {
+    padding-top: 1.33%;
+  }
+}
+
+/* Transparent Nav Stuff */
+nav {
+    background-color: transparent;
+    -webkit-transition: background-color 0.5s ease-in-out;
+    -moz-transition: background-color 0.5s ease-in-out;
+    -ms-transition: background-color 0.5s ease-in-out;
+    -o-transition: background-color 0.5s ease-in-out;
+    transition: background-color 0.5s ease-in-out;
+}
+
+.header-content{
+  background: url('./src/img/icon.png');
+}
